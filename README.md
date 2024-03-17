@@ -1,6 +1,8 @@
 # Auroria-Lang
 Lightweight, bytecode-serialized interpreted language. Supporting loops, if/else statements, functions and more.
 
+I'll of course write an explanation on the C++ side when it isn't 4am.
+
 ## Everything is buggy, its v0.1!
 
 # Coding in Auroria
@@ -61,6 +63,13 @@ else{
 ```
 i = 0
 for(10, "i") {
+print(i)
+}
+```
+* And with string iteration, this would print H, e, l, l, o, respectively.
+```
+i = 0
+for("Hello", "i") {
 print(i)
 }
 ```
